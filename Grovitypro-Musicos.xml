@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://funbolivar--promusico.my.salesforce.com" validUntil="2031-08-27T17:26:35.953Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://funbolivar--promusico.my.salesforce.com" validUntil="2031-08-27T17:56:17.936Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
    <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
@@ -8,7 +8,7 @@
          </ds:KeyInfo>
       </md:KeyDescriptor>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://funbolivar--promusico.my.salesforce.com/idp/endpoint/HttpPost"/>
-      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://funbolivar--promusico.my.salesforce.com/idp/endpoint/HttpRedirect"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://promusico-fundacionbolivardaviviendaorg.cs96.force.com/comunidadfbdMentee/idp/endpoint/HttpPost"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://promusico-fundacionbolivardaviviendaorg.cs96.force.com/comunidadfbdMentee/idp/endpoint/HttpRedirect"/>
    </md:IDPSSODescriptor>
 </md:EntityDescriptor>
