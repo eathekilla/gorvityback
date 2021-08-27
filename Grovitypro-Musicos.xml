@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://funbolivar--promusico.my.salesforce.com" validUntil="2031-08-27T17:26:35.953Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAXlhQP01AAAAACBWw7wwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEyTWF5MjAyMV8xNTQ1MTkxGDAWBgNVBAsMDzAwRDFnMDAwMDAwMzZpWTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjEwNTEyMTU0NTE5WhcNMjIwNTEyMTIwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMTJNYXkyMDIxXzE1NDUxOTEYMBYGA1UECwwPMDBEMWcwMDAwMDAzNmlZMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIGi47LQdq2JsUKzk6d7GsQrQvDneBsQtcmL0MugytRZNUrmZBo1KMoDmJQzsVhZWJKDK8tv78ZPRVIdXguaEfBUmd6Dj+KrRudKSfSRMT+bpZpt3mV/3yUHKh2+GnuAchaH219fuABPEiXrmbcdmbP+UFj56tJ9v6idT+irJFcEHZ0HwYHrjFjsx4+34cbWFnhxaQnYyIRSttkWfJRaPMeIwLLDO0QQpbxNqRrnxQpIsLlc2aIe4DEGjmVBv/9aWS68ULW5Vpc2BYEq4chi0ZD024BKVp9Gqq5MScI8qEsyWMiL6eVwRZJDNBJFOItVfrYzYmvzUhgSvsbeeRFSNWsCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFCMZspalEYi903SN2eNdL6T8Nay9MA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AUIxmylqURiL3TdI3Z410vpPw1rL2hgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEyTWF5MjAyMV8xNTQ1MTkxGDAWBgNVBAsMDzAwRDFnMDAwMDAwMzZpWTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgF5YUD9NQAAAAAgVsO8MA0GCSqGSIb3DQEBCwUAA4IBAQBiIKKTyCiJmxBeG6D/Mzr8Lqq+WLHQigmh2KCuoZpYRkuzkuUnsoENLI2BBUbFFGoa+ROYHPSgXYkMNM82Y4jaEc3cAOo33xVX2sUW3sj4/wRRo2mpt/EOBxMJDA2kfaBAlgsw9T+zxVNVJ0h8LiFBntwyZvRXiDU8xqzoIwV4ZmYlRTFVv6+a/UzmISlJQT746NN5n0XnXf0ZdFWtu2XhaZJgoIVRSQfy2VEJTzPn3AqxopJL1AMnUcFeyvWvqMnvH39My5KhTzY3v4bxb4/zvcAgSrYPKHsIUjfdrdavxT+YdKH0mdnvpWZclllB7M8Q50ByqYtYoQjQSgQeaDTK</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://funbolivar--promusico.my.salesforce.com/idp/endpoint/HttpPost"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://funbolivar--promusico.my.salesforce.com/idp/endpoint/HttpRedirect"/>
+   </md:IDPSSODescriptor>
+</md:EntityDescriptor>
