@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://fundacionbolivardavivienda.my.salesforce.com" validUntil="2031-09-01T22:16:00.132Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAXldF38wAAAAAGfVv7MwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExTWF5MjAyMV8yMDIxMzAxGDAWBgNVBAsMDzAwRDYxMDAwMDAwN0dVUDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjEwNTExMjAyMTMxWhcNMjIwNTExMTIwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMTFNYXkyMDIxXzIwMjEzMDEYMBYGA1UECwwPMDBENjEwMDAwMDA3R1VQMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALhqYYTO8iA768efMPuxrs3q9Kah3YenuxSaPW+gaU8w8tvUVwDbHKCq8wbhilYOU73897myUdPffi8sTB1SnlgVXiWYUYefs7w06zkj7c8maMlsBiUWgTMmTCqS0f7g3DBv313WUVT/vyUFTvEWrHp7l6yCnJfDAIGYdIt1wxOAFPNTZmVrJTRnHk672oG0mExEd+4G+RyxMAMmGGwAMljCGQTXiDKAVnX8YUN5TIvzuToIs8eVqj+X9sxFt+oyHZUgsAEdb6tH53Zt1oe6Hfbnxb6/SONuvjd/dQ4EmxZ1D8kRDcpfSukF/+x+ohKXaaK81NQrzmZPdgKsKqA8Y+UCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFNXMThp5AJyYb9QGZ4w307SGMzBpMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AU1cxOGnkAnJhv1AZnjDfTtIYzMGmhgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExTWF5MjAyMV8yMDIxMzAxGDAWBgNVBAsMDzAwRDYxMDAwMDAwN0dVUDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgF5XRd/MAAAAABn1b+zMA0GCSqGSIb3DQEBCwUAA4IBAQAzv5/Vo54MhKAk1yY83ASncDy694PD3ThORcZSOaUJ8ZalIjWDG+zVRIm1ELChuozH9m7CxuizMVOpDSwsWb9WKjV7eYgHS7qRA5tUK7snLAPveB7W5auNQSkxBlRQ7U3iB1OeSpmm/jA04c/+4GXOJYurdOJJwaT+ePzfKjcpDM8kkqZsWzNnTy3zV2ZJDk0L44w3Qf7Jgw1k/TzHb3VsdlHlNjwe4U5ya4EpI5aD6oqgV8jmoAX0OCXaaSSjKkU0cO5CWvpc980eLEvVSB59x6fGMCUaR9G9XnecnDnYIHGf3alh+v3EEzJX8hsRaFHMBAsU2WXQrZ6wslh+2PgP</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fundacionbolivardaviviendaorg.force.com/comunidadfbdMentores/idp/endpoint/HttpPost"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fundacionbolivardaviviendaorg.force.com/comunidadfbdMentores/idp/endpoint/HttpRedirect"/>
+   </md:IDPSSODescriptor>
+</md:EntityDescriptor>
